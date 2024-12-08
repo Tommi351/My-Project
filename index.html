@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Site</title>
+    <link rel="stylesheet" href="mainstyle.css">
+    <script>
+        // When the user clicks on <div>, open the pop-up
+            function myFunction () {
+                let popup = document.getElementById("myPopup");
+                popup.classList.toggle("show");
+            }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="calculator.html">Calculator</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="pulse"></div>
+    <h1 id="h1-style">Hi, my name is Tomi</h1>
+    <p><a href="#copyright">Jump to copyright</a></p>
+    <main>
+        <h2 class="auto-bio">Autobiography</h2>
+        <article class="article-top">
+            <p> My name is Tomi, I'm a freelance web developer based in Canada.
+                I'm passionate about technology, sports and the outdoors. 
+                My freelance web development roots are in HTML, CSS, Javascript, etc, some of which are self taught and some in class.
+            </p>
+        </article>
+        <br>
+        <article class="article-bottom">
+            <figure>
+                <img src="https://rb.gy/00b1fg" alt="portfollo" class="img-style">
+            </figure>
+            <p>Outside of the digital landscape, you might find me shooting some hoops or getting some gains in the gym.</p>
+
+                Whether your a business owner looking to get started 
+                or whatever your web development needs may be, let's get in touch and make it happen!
+        </article>
+        <div class="button">
+        <button class="email-button"><a href="mailto:to.olufemi1@gmail.com">Sent a mail</a></button>
+        <br>
+        <button class="call-button"><a href="tel:7806678984">Give us a call</a></button>
+    </div>
+    </main>
+    <br>
+    <footer>
+        <p id="copyright">Copyright 2024 &copy;</p>
+    </footer>

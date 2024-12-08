@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(212, 36, 95);
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+h1 {
+ color: gold;
+ font-size: 30px;
+}
+
+#full-name {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.full-name {
+   color: white;
+}
+
+#email {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.email {
+ color: white;
+}
+
+#new-message {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.message {
+ color: white;
+}
+
+.TAC {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.submit {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); 
+}

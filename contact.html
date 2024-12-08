@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="formstyle.css">
+    <link rel="stylesheet" href="mainstyle.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="calculator.html">Calculator</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Welcome to my form</h1>
+    <p>Let's talk, whether you have a problem or maybe you need a website.</p>
+    <form method="post" action="#">
+     <fieldset>
+        <label class="full-name" for="full-name">Enter a Full Name: <input id="full-name" required /></label>
+        <br>
+        <label class="email" for="email">Enter a Email: <input id="email" name="email" type="email" required /></label>
+        <br>
+        <label class="message" for="message">Message: <input id="new-message"
+            required /></label>
+        <br>
+     </fieldset>
+
+     <label class="TAC" for="terms-and-conditions">
+        <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I
+        accept the <a href="#">terms and conditions</a>
+      </label>
+      <br>
+      <br>
+      <input class="submit" type="submit" value="Submit" />
+    </form>
+</body>
+
+</html>
